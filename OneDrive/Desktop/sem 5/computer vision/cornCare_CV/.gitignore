@@ -1,0 +1,12 @@
+# Ignore dataset & large files
+dataset/
+
+# Ignore trained model weights
+# *.pth
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+.env/
