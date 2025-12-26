@@ -18,9 +18,9 @@ Deployed App: [CornCare Streamlit App (ResNet50 & EfficientNetB0)](https://cornc
 CornCare_corn-leaf-disease-detection/
 │── .gitattributes
 │── .gitignore
-│── app.py                # Streamlit app for deployment
+│── corncare.py           # Streamlit app for deployment
 │── best_ResNet.pth       # Trained ResNet50 model
-│── best_EfficientNet.pth       # Trained EfficientNetB0 model
+│── best_EfficientNet.pth # Trained EfficientNetB0 model
 │── corn_leaf_bg.jpg      # Background image for app
 │── main.ipynb            # Training & experimentation notebook
 │── requirements.txt      # Dependencies for Streamlit app
