@@ -15,7 +15,7 @@ Deployed App: [CornCare Streamlit App (ResNet50 & EfficientNetB0)](https://cornc
 ## 📂 Repository Structure
 
 ```
-CornCare_corn-leaf-disease-detection/
+cornCare_CV/
 │── .gitattributes
 │── .gitignore
 │── corncare.py           # Streamlit app for deployment
@@ -49,8 +49,8 @@ CornCare is trained on publicly available corn leaf datasets:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/ceciliasx/CornCare_corn-leaf-disease-detection.git
-   cd CornCare_corn-leaf-disease-detection
+   git clone https://github.com/whoopnes/cornCare_CV.git
+   cd cornCare_CV
    ```
 
 2. **Set up environment**
@@ -60,7 +60,7 @@ CornCare is trained on publicly available corn leaf datasets:
 
 3. **Run the Streamlit app locally**
    ```bash
-   streamlit run app.py
+   streamlit run corncare.py
    ```
 
 4. **Access the app** at `http://localhost:8501`
