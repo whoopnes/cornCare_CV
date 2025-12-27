@@ -6,9 +6,7 @@ It classifies corn leaves into **three categories**:
 - 🍂 **Karat (Rust)**  
 - 🍃 **Hawar (Blight)**  
 
-Deployed App: [CornCare Streamlit App (ResNet50)](https://corncare-corn-leaf-disease-detection.streamlit.app/)
-
-Deployed App: [CornCare Streamlit App (ResNet50 & EfficientNetB0)](https://corncare-aol.streamlit.app/)
+Deployed App: [CornCare Streamlit App](https://corncareapp.streamlit.app/)
 
 ---
 
@@ -28,13 +26,6 @@ cornCare_CV/
 
 ---
 
-## 🌳 Branches
-
-- **`main`** → Uses **ResNet50** as the backbone model.  
-- **`densenet-comparison`** → Compares **ResNet50** and **DenseNet121** performance.
-- **`efficientnetb0-comparison`** → Compares **ResNet50** and **EfficientNet-B0** performance.
-
----
 
 ## 📊 Dataset
 
@@ -69,9 +60,8 @@ CornCare is trained on publicly available corn leaf datasets:
 
 ## 🧠 Model Details
 
-- **ResNet50** (main branch): trained as the primary model.  
-- **DenseNet121** (comparison branch): tested for performance comparison.  
-- **EfficientNet-B0** (comparison branch): tested for performance comparison.  
+- **ResNet50** : trained as the primary model.  
+- **EfficientNet-B0** : tested for performance comparison.  
 - **Loss Function:** CrossEntropyLoss  
 - **Optimizer:** Adam (lr=0.001) with `ReduceLROnPlateau` scheduler  
 - **Data Augmentation:** Random flips, rotations, and color jitter  
